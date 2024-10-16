@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand" , sans-serif;
+}
+.final{
+    border: solid pink 10px;
+    background-color: pink;
+}
+.fita{
+    width: 40vh;
+    height: 25vh;
+    display: flex;
+    justify-content: start;
+
+}
+.cabecalho{
+    background-color: hotpink;
+    display: flex;
+    font-weight: bolder;
+    color: white;
+    font-size: 20vh;
+}
+.incio{
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.sobre{
+    display: flex;
+    justify-content: space-around;
+}
+.outubro{
+    width: 40vh;
+    height: 40vh;
+}
+.img{
+    background-color: hotpink;
+    padding: 0.7vh;
+    border: transparent 2px;
+    display: flex;
+    color: white;
+    font-size: larger;
+}
+.para{
+    padding: 0.5vh;
+    font-size: larger;
+}
+.pre{
+    display: flex;
+    justify-content: center;
+}
+
+.predicas{
+    background-color: hotpink;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+    color: white;
+    font-size: larger;
+
+}
+.atividade{
+    background-color: hotpink;
+}
+ ul,li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7vh;
+ }
+footer{
+    background-color: pink;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+
