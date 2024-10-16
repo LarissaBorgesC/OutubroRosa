@@ -14,9 +14,10 @@
     width: 40vh;
     height: 25vh;
     display: flex;
-    justify-content: start;
+    justify-content: start;      
+    }
+ 
 
-}
 .cabecalho{
     background-color: hotpink;
     display: flex;
@@ -84,5 +85,39 @@ footer{
 
 }
 
+@media  (max-width: 500px ) {
+    .fta{  
+    width: 8rem;
+    height: 1rem;
+    //display: flex;
+//justify-content: start;
+.incio{
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+    font-size: 2vh;
+}
+    }
+    .cabecalho{
+        font-size: 4vh ;
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+    }
+    .outubro{
+        width: 24rem;
+        height: 15rem;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.predicas{
+    display: flex;
+    flex-direction: column;
+
+}
+}
 
 
